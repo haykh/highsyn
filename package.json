@@ -1,0 +1,21 @@
+{
+  "name": "highsyn",
+  "displayName": "highsyn",
+  "description": "nice dark syntax highlighting",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "highsyn",
+        "uiTheme": "vs-dark",
+        "path": "./themes/highsyn-color-theme.json"
+      }
+    ]
+  }
+}
